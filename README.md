@@ -1,8 +1,8 @@
 ## ReaktSpid
 A web game to test your reactions.
 
-Made in: HTML, CSS, JavaScript <br/>
-Context: Quick game I made for fun while learning JavaScript :)
+**Made in: HTML, CSS, JavaScript ** <br/>
+**Context:** Quick game I made for fun while learning JavaScript :)
 
 # How it works
 Figures will randomly appear on the screen. <br/>
