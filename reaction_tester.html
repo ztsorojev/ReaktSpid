@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <title>Reaction Tester</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style type="text/css">
+    
+    body {
+        font-family: Roboto, Geneva, sans-serif;
+
+        margin:0;
+    }
+
+    #box {
+    	height: 200px;
+    	width: 200px;
+    	background-color: black;
+    	display: none;     /*we don't display anything by default - the display is dealt with by the javaScript! */
+        position: relative;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .align {
+        text-align: center;
+        margin: 0 auto;
+        /*width: 100%;*/
+    }
+
+    .bottom {
+        /*position: absolute;*/
+        bottom: 0;
+        text-align: center;
+        margin: 0 auto;
+        /*width: 100%;*/
+        padding-top: 30px;
+        font-weight: bold;
+    }
+
+    #topbar{
+        background-color: #004387;
+        /*height: 70px;*/
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 100%;
+        color: white;
+        font-family: roboto;
+        font-weight: bold;
+    }
+
+    .align p{
+        font-size: 1em;
+    }
+
+    #container {
+        margin: 0 auto;
+        width: 1000px;
+        height: 450px;
+        border: 2px solid #7A0000;
+        background-color: #f3f3f3;
+    }
+
+    </style>
+</head>
+
+<body>
+
+<div class="align">
+    <div id="topbar">
+        <h1>ReaktSpid: Test your reactions</h1>    
+    </div>
+
+    <p>Click on the boxes and circles as quickly as you can! <br />
+        Are you ready? <span class="bold">GO!</span></p>
+
+    <div id="container">
+        <div id="box"></div>
+    </div>
+
+    <p class="bold, align, bottom">Your time: <span id="time">0</span>s</p>
+
+    <script type="text/javascript" src="javascript.js"></script>
+</div>
+</body>
+</html>
